@@ -17,7 +17,7 @@ export default function Navbar(props) {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav">
-            <a class="nav-link" onClick={() => navigate("/")}>Home</a>
+            <a class="nav-link" onClick={() => navigate("/nalobby")}>Home</a>
             <a class="nav-link" onClick={() => navigate("/services")}>Services</a>
             <a class="nav-link" onClick={() => navigate("/clients")}>Clients</a>
             <a class="nav-link" onClick={() => navigate("/news")}>News</a>
