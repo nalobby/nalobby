@@ -36,7 +36,7 @@ export default function App() {
         <Title>Solid Vite App</Title>
         <Navbar navigate={navigate}/>
         <Suspense>
-          {path() === "/" && <Home />}
+          {path() === "/nalobby" && <Home />}
           {path() === "/services" && <Services />}
           {path() === "/clients" && <Clients />}
           {path() === "/news" && <News />}
