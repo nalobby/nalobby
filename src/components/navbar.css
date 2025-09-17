@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #00035c;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #6474e9 !important;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+
+}
+
+.na-logo-nav {
+    max-height: 70px;
+}
+
+
+
+@media screen and (min-width: 1400px) {
+.navbar-brand {
+    margin-left: 12rem;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 12rem;
+}
+    
+}

@@ -1,0 +1,57 @@
+.teammate-picture {
+  object-fit:cover;
+  height: 16rem;
+  width: 100%;
+  /* filter:opacity(.85); */
+  /* border-radius: 50%; */
+  box-shadow: 0 2px 4px 0 #ffffff !important;
+}
+
+.team-name-column {
+  background-color: #00047a;
+  color:#ffffff;
+  text-align: start;
+  max-height: 16rem;
+}
+
+.teammate-name {
+  color:#ffffff;
+  font-size: 32pt;
+}
+
+.teammate-title {
+  font-size: 16pt;
+  font-style: italic;
+}
+
+.teammate-bio {
+  text-align: justify;
+  white-space: pre-line;
+
+}
+
+.teammate-email {
+  color: #ffffff !important;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+  z-index: 10;
+}
+
+.teammate-email:hover {
+  color: #6474e9 !important;
+}
+
+.bio-item {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left; 
+
+}
+
+.bio-icon {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4b5bd3;
+}

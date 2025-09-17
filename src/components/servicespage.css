@@ -1,0 +1,37 @@
+.service-item {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.services-title {
+  padding-bottom: 3rem;
+  color: #00035c;
+  font-size: 32pt;
+}
+
+.services-description {
+  text-align:justify;
+}
+
+.services-image {
+  object-fit:cover;
+  height: 18rem;
+  width: 18rem;
+}
+
+.service-icon {
+  color: #4b5bd3;
+}
+
+.services-card .list-group {
+  text-align: left;
+}
+
+.example-twis {
+  cursor: pointer;
+  color: #4b5bd3;
+}
+
+.example-twis:hover {
+  color: #ffd416;
+}

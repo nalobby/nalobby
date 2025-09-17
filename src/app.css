@@ -1,0 +1,139 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  margin-right: 1rem;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: #335d92;
+  text-transform: uppercase;
+  font-size: 4rem;
+  /* font-weight: 300 !important; */
+  line-height: 1.1;
+  margin: 4rem auto;
+  max-width: 14rem;
+  font-family: 'Century Gothic Paneuropean', sans-serif;
+                                                
+}
+
+p {
+  max-width: 14rem;
+  margin: 2rem auto;
+  line-height: 1.35;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.intro-title {
+  text-align: start;
+  font-size: 40pt;
+  color: #00023d;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.homepage-card {
+  box-shadow: 0 2px 4px 0 #cccccc86;
+  height: 350px !important;
+  width: 350px !important;
+  border-radius: 15px !important;
+  text-align: left;
+  border: 0 !important;
+}
+
+.card-one,
+.card-one .card-title {
+  background: #00047a !important;
+  color: #fff !important;
+}
+
+.card-two,
+.card-two .card-title {
+  background: #4b5bd3 !important;
+  color: #fff !important;
+}
+
+.card-three,
+.card-three .card-title {
+  background: #191fcc !important;
+  color: #fff !important;
+}
+
+.homepage-card {
+  padding: 1rem;
+}
+
+.homepage-card-icon {
+  font-size: 28pt;
+}
+
+.homepage-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.card-title {
+  font-size: 20pt;
+  color:#00023d !important;
+}
+
+.card-text {
+  /* font-size: 20pt; */
+  line-height: 1.7;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card-page-link {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+.card-page-link:hover {
+  color: #ffd416 !important;
+}
+
+.separator-row {
+  height: 10px;
+  background-color: #6474e9;
+}
+
+
+@media screen and (max-width: 479px) {
+    .carousel-item {
+      height: 50vh;
+    }
+}
+
+@media (min-width: 480px) {
+  h1 {
+    max-width: none;
+  }
+
+  p {
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+}

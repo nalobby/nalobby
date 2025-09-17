@@ -1,0 +1,32 @@
+.page-banner {
+  position: relative;
+}
+
+.page-banner-image {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+  filter: grayscale(1);
+}
+
+.page-banner-card {
+  color: #ffffff;
+  background-color: #6474e9b9 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  min-width: 70vw;
+}
+
+.page-banner-caption {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.page-banner-title {
+  font-weight: 600;
+  font-size: 32pt;
+  color: #ffffff;
+}

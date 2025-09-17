@@ -1,0 +1,12 @@
+.contact-button {
+  width: 20vw;
+  font-size: 22pt !important;
+  background-color: #ffd416 !important;
+  color: #00047a !important;
+  box-shadow: 0 2px 4px 0 #cccccc;
+}
+
+.contact-button:hover {
+  background-color: #6474e9 !important;
+  color: #ffffff !important;
+}
