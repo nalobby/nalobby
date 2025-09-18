@@ -30,7 +30,7 @@ export default function Team() {
             <div class="row my-5 pt-md-3 teammate-row">
               <div class="row">
                 <div class="col-md-2 me-0 pe-0">
-                  <img class="teammate-picture" src={person.picture}/>
+                  <img class="teammate-picture" src={`${import.meta.env.BASE_URL}${person.picture}`}/>
                 </div>
                 <div class="col-md-6 team-name-column ms-0 ps-4">
                   <h1 class="teammate-name mt-5 mb-3">{person.name}</h1>
