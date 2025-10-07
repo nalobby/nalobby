@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
 
 body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 main {
   text-align: center;
   margin: 0 auto;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -93,12 +93,13 @@ p {
 .card-title {
   font-size: 20pt;
   color:#00023d !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-text {
   /* font-size: 20pt; */
   line-height: 1.7;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Segoe UI', Tahoma, 'Arial Narrow Bold', sans-serif;
 }
 
 .card-page-link {
