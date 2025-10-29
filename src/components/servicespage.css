@@ -35,3 +35,20 @@
 .example-twis:hover {
   color: #ffd416;
 }
+
+
+@media screen and (max-width: 479px) {
+
+  .services-title {
+    font-size: 24pt;
+  }
+
+  .services-description {
+    font-size: large;
+    /* text-align: start; */
+  }
+
+  .services-card-title {
+    font-size: 16pt;
+  }
+}

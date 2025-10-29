@@ -8,16 +8,16 @@ export default function Footer() {
     <div class="position-relative bottom-0 footer pt-5 pb-0">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-12 col-md-2">
             <a class="" href="/">
               <img src={norwoodLogo} class="na-logo-footer" alt="Norwood Associates logo" />
             </a>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-0 col-md-4">
           </div>
-          <div class="col-md-2">
-            <p class="ms-1 mt-0">
+          <div class="col-12 col-md-2  px-0 mx-0 footer-contact">
+            <p class="ms-md-1 mt-0 px-0 mx-0 ">
               915 L Street, Suite 1100<br/>
               Sacramento, CA 95814<br/><br/>
               (916) 447-5053<br/><br/>
@@ -25,7 +25,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div class="row mt-4 copyright">
+        <div class="row mt-md-4 copyright">
           <p>&#xA9; 2025 Norwood Associates, LLC | All Rights Reserved.</p>
         </div>
       </div>

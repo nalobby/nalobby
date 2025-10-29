@@ -30,3 +30,23 @@
   font-size: 32pt;
   color: #ffffff;
 }
+
+
+@media screen and (max-width: 479px) {
+
+  .page-banner-image {
+    height: 90vh;
+  }
+  
+  .page-banner-title {
+    font-size: 29pt;
+  }
+
+  .page-banner-subtitle {
+    font-size: 14pt;
+  }
+
+  .page-banner-caption {
+    top: 55%;
+  }
+}

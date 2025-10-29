@@ -27,28 +27,28 @@ export default function Home() {
 
       <div class="container-fluid">
         <div class="row mt-md-5 pt-md-5 mb-5">
-          <div class="col-md-7 ">
-            <h2 class="home-descriptions left mb-5 pb-5">{homeSubtitle1}</h2>
+          <div class="col-md-10 col-lg-8">
+            <h2 class="home-descriptions left mb-md-5 pb-5 pt-md-0 pt-5">{homeSubtitle1}</h2>
             <hr />
           </div>
         </div>
 
-        <div class="row mt-md-5 pt-md-5 mb-5 ">
-          <div class="col-3 px-4">
+        <div class="row mt-md-5 pt-md-5 mb-5 justify-content-center">
+          <div class="col-lg-3 d-flex justify-content-center">
             <div class="card homepage-card card-one" >
-              <div class="p-4 ms-auto">
+              <div class="p-3 p-md-4 ms-auto">
                 <i class="bi bi-stack homepage-card-icon "/>
               </div>              
               <div class="card-body">
                 <h5 class="card-title my-4">{cardOneTitle}</h5>
-                <p class="card-text mt-0 mb-2">{cardOneText}</p>
+                <p class="card-text mt-0 mb-2 ">{cardOneText}</p>
               </div>
               <a class="card-page-link ms-auto" href="/services">Go to Services <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
-          <div class="col-3 px-4">
+          <div class="col-lg-3 my-4 my-lg-0 d-flex justify-content-center">
             <div class="card homepage-card card-two" >
-              <div class="p-4 ms-auto">
+              <div class="p-3 p-md-4  ms-auto">
                 <i class="bi bi-bullseye homepage-card-icon "/>
               </div>
               <div class="card-body">
@@ -58,9 +58,9 @@ export default function Home() {
               <a class="card-page-link ms-auto" href="/team">Go to Team <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
-          <div class="col-3 px-4">
+          <div class="col-lg-3 d-flex justify-content-center">
             <div class="card homepage-card card-three" >
-              <div class="p-4 ms-auto">
+              <div class="p-3 p-md-4  ms-auto">
                 <i class="bi bi-compass homepage-card-icon "/>
               </div>
               <div class="card-body">

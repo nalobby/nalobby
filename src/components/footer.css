@@ -29,6 +29,21 @@
 }
 
 
+@media screen and (max-width: 500px) {    
+    .footer-contact {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-email {
+        display: block;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 1400px) {
 .navbar-brand {
     margin-left: 12rem;

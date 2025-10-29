@@ -10,3 +10,14 @@
   color: #00035c;
   font-size: 32pt;
 }
+
+.past-client-title {
+  color: #4b5bd3;
+}
+
+
+@media screen and (max-width: 479px) {
+  .client-title {
+    font-size: 24pt;
+  }
+}

@@ -36,28 +36,26 @@ export default function Clients() {
         <div class="container-fluid">
 
           <div class="row pt-md-3">
-            <div class="col-3">
               {/* <button class={`mt-5 client-toggle ${!seePastClients() ? 'selected' : 'unselected'}`} onClick={() => setSeePastClients(false)}> */}
-                <h1 class="client-title mt-5 mb-2">Current Clients</h1>
+                <h1 class="client-title mt-5 mb-2 mx-0">Current Clients</h1>
               
-            </div>
           </div>
           
           <ul class="list-group list-group-flush">
             <div class="row pt-md-3  ">
               {currentClients.map(client => (
-                <div class="col-5">
+                <div class="col-md-5 col-12">
                   <li class="list-group-item client-item">{client.clientName}</li>
                 </div>
               ))}
             </div>
           </ul>
 
-          <h4 class="mt-5">See Past Clients <i class={`bi past-client-toggle ${seePastClients() === false ? 'bi-arrows-expand' : 'bi-arrows-collapse'}`} onClick={() => setSeePastClients(!seePastClients())}></i></h4>
+          <h4 class="mt-5 past-client-title">See Past Clients <i class={`bi past-client-toggle ${seePastClients() === false ? 'bi-arrows-expand' : 'bi-arrows-collapse'}`} onClick={() => setSeePastClients(!seePastClients())}></i></h4>
           <ul class="list-group list-group-flush">
             <div class="row pt-md-3  ">
               {seePastClients() && pastClients.map(client => (
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                   <li class="list-group-item client-item">{client.clientName}</li>
                 </div>
               ))}

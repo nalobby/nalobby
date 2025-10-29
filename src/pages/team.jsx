@@ -29,11 +29,11 @@ export default function Team() {
           {teamInfo.map(person => (
             <div class="row my-5 pt-md-3 teammate-row">
               <div class="row">
-                <div class="col-md-2 me-0 pe-0">
+                <div class="col-md-2 me-md-0 pe-md-0 px-0">
                   <img class="teammate-picture" src={`${import.meta.env.BASE_URL}${person.picture}`}/>
                 </div>
                 <div class="col-md-6 team-name-column ms-0 ps-4">
-                  <h1 class="teammate-name mt-5 mb-3">{person.name}</h1>
+                  <h1 class="teammate-name mt-5 mb-3 ms-0 ">{person.name}</h1>
                   <h4 class="teammate-title">
                     {Array.isArray(person.title) ? (
                       person.title.map((line, i) => (
@@ -46,13 +46,15 @@ export default function Team() {
                       person.title
                     )}
                   </h4>
-                  <br/>
-                  <a class="teammate-email" href={`mailto:${person.email}`} target="_blank" alt={`Email ${person.name}`}><i class="bi bi-envelope-fill" ></i></a>
+                  {/* <br/> */}
+                  <div class="row mt-3 mb-5">
+                    <a class="teammate-email" href={`mailto:${person.email}`} target="_blank" alt={`Email ${person.name}`}><i class="bi bi-envelope-fill" ></i></a>
+                  </div>
                 </div>
               </div>
               <div class="row mt-4">
-                <div class="col-md-5 pe-4 ">
-                  <p class="teammate-bio mt-0">{person.bio}</p>
+                <div class="bio-column col-lg-5 col-12 pe-md-4 ">
+                  <p class="teammate-bio mt-0 mx-0">{person.bio}</p>
                 </div>
                 <div class="col-md-3">
                   <div class="bio-item">

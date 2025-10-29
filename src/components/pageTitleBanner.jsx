@@ -7,7 +7,7 @@ export default function PageTitleBanner(props) {
     <div class="page-banner">
       <img src={props.bannerImage} class="d-block w-100 page-banner-image" alt="..."/>
       <div class="page-banner-caption">
-        <div class="page-banner-card p-4">
+        <div class="page-banner-card p-4 ">
           <div class="card-body">
             <h1 class="page-banner-title my-4">{props.title}</h1>
             <h5 class="page-banner-subtitle">{props.subtitle}</h5>

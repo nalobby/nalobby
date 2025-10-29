@@ -1,5 +1,5 @@
 .contact-button {
-  width: 20vw;
+  min-width: 20vw;
   font-size: 22pt !important;
   background-color: #ffd416 !important;
   color: #00047a !important;
