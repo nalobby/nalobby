@@ -56,10 +56,8 @@
   color: #4b5bd3;
 }
 
-@media screen and (max-width: 479px) {
-  .bio-column {
-    width: 100% !important;
-    max-width: 100% !important;
-    flex: 0 0 100%;
-  } 
+@media screen and (max-width: 768px) {
+  .teammate-picture {
+    height: 100%;
+  }
 }
