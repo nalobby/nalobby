@@ -67,7 +67,7 @@ export default function Home() {
                 <h5 class="card-title my-4">{cardThreeTitle}</h5>
                 <p class="card-text mt-0 mb-2">{cardThreeText}</p>
               </div>
-              <a class="card-page-link ms-auto" href="/news">Go to News & Reports <i class="bi bi-arrow-up-right"/></a>
+              <a class="card-page-link ms-auto" href="/insights">Go to Insights & Reports <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
           

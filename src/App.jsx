@@ -18,7 +18,7 @@ import Footer from "./components/footer";
 import Home from "./pages/index";
 import Services from "./pages/services";
 import Clients from "./pages/clients";
-import News from "./pages/news";
+import Insights from "./pages/insights";
 import Team from "./pages/team";
 
 export default function App() {
@@ -39,7 +39,7 @@ export default function App() {
           {(path().replace(/\/$/, "") === "/nalobby") && <Home />}
           {path().replace(/\/$/, "") === "/services" && <Services />}
           {path().replace(/\/$/, "") === "/clients" && <Clients />}
-          {path().replace(/\/$/, "") === "/news" && <News />}
+          {path().replace(/\/$/, "") === "/insights" && <Insights />}
           {path().replace(/\/$/, "") === "/team" && <Team />}
         </Suspense>
         <Footer />

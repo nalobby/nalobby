@@ -20,7 +20,7 @@ export default function Navbar(props) {
             <a class="nav-link" onClick={() => navigate("/nalobby")}>Home</a>
             <a class="nav-link" onClick={() => navigate("/services")}>Services</a>
             <a class="nav-link" onClick={() => navigate("/clients")}>Clients</a>
-            <a class="nav-link" onClick={() => navigate("/news")}>News</a>
+            <a class="nav-link" onClick={() => navigate("/insights")}>Insights</a>
             <a class="nav-link" onClick={() => navigate("/team")}>Team</a>
             <a class="nav-link" href="https://www.linkedin.com/company/norwood-associates/" target="_blank" alt="Norwood Associates' LinkedIn"><i class="bi bi-linkedin" ></i></a>
             <a class="nav-link" href="mailto:info@nalobby.net" target="_blank" alt="Email Norwood Associates"><i class="bi bi-envelope-fill" ></i></a>
