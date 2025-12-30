@@ -36,11 +36,11 @@ export default function App() {
         <Title>Solid Vite App</Title>
         <Navbar navigate={navigate}/>
         <Suspense>
-          {(path().replace(/\/$/, "") === "/nalobby") && <Home />}
-          {path().replace(/\/$/, "") === "/services" && <Services />}
-          {path().replace(/\/$/, "") === "/clients" && <Clients />}
-          {path().replace(/\/$/, "") === "/insights" && <Insights />}
-          {path().replace(/\/$/, "") === "/team" && <Team />}
+          {(path().replace(/\/$/, "") === "/nalobby") && <Home navigate={navigate}/>}
+          {(path().replace(/\/$/, "") === "/services") && <Services />}
+          {(path().replace(/\/$/, "") === "/clients") && <Clients />}
+          {(path().replace(/\/$/, "") === "/insights") && <Insights />}
+          {(path().replace(/\/$/, "") === "/team") && <Team />}
         </Suspense>
         <Footer />
       </MetaProvider>

@@ -29,13 +29,11 @@
 
 .example-twis {
   cursor: pointer;
-  color: #4b5bd3;
 }
 
-.example-twis:hover {
-  color: #ffd416;
-}
-
+.twis-picture {
+    width: 100%;
+  }
 
 @media screen and (max-width: 479px) {
 

@@ -48,10 +48,10 @@ export default function Services() {
                   <div class="card-body">
                     <div class="card-title services-card-title">Key Activities</div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">Tracking of bill introductions & amendments</li>
+                      <li class="list-group-item">Analysis of policy impact on business interests</li>
+                      <li class="list-group-item">Monitoring committee hearings & floor sessions</li>
+                      <li class="list-group-item">Real-time alerts on critical legislative movements</li>
                     </ul>
                   </div>
                 </div>
@@ -75,22 +75,22 @@ export default function Services() {
               <h1 class="services-title my-lg-4 my-0 mt-4 mx-0">Strategic Program Management</h1>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-12">
+              <div class="col-lg-8 col-12 ps-lg-5 order-lg-2">
+                 <h5 class="services-description">Government advocacy is a multi-faceted, complex business. Much of the success of a pro-active program is determining the best approach regarding the issue. A successful strategy is forged through the assessment of various factors namely political environment, political action budgets, message development, potential coalition-building, grassroots efforts, public relations, and more. Pro-active program management may include, but is not limited to, legislative bill drafting, designation of an author, preparation of lobbying materials, meetings with State Legislators and key legislative staff, and advocacy efforts with the Administration and/or regulatory agencies. Whether a pro-active or defensive strategy, Norwood Associates, LLC will coordinate with its clients to develop and prioritize steps designed to successfully accomplish their legislative goals and objectives.</h5>
+              </div>
+              <div class="col-lg-4 col-12 mt-lg-0 mt-4 order-lg-1">
                 <div class="card services-card" >
                   <div class="card-body">
                     <div class="card-title services-card-title">Key Activities</div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">Developing comprehensive legislative roadmaps</li>
+                      <li class="list-group-item">Drafting legislative language & amendments</li>
+                      <li class="list-group-item">Coordinating coalition building & stakeholders</li>
+                      <li class="list-group-item">Managing political action budgets</li>
                     </ul>
                   </div>
                 </div>
-              </div>  
-              <div class="col-lg-8 col-12 ps-lg-5 mt-lg-0 mt-4">
-                 <h5 class="services-description">Government advocacy is a multi-faceted, complex business. Much of the success of a pro-active program is determining the best approach regarding the issue. A successful strategy is forged through the assessment of various factors namely political environment, political action budgets, message development, potential coalition-building, grassroots efforts, public relations, and more. Pro-active program management may include, but is not limited to, legislative bill drafting, designation of an author, preparation of lobbying materials, meetings with State Legislators and key legislative staff, and advocacy efforts with the Administration and/or regulatory agencies. Whether a pro-active or defensive strategy, Norwood Associates, LLC will coordinate with its clients to develop and prioritize steps designed to successfully accomplish their legislative goals and objectives.</h5>
-              </div>             
+              </div>
             </div>
           </div>
         </div>
@@ -117,10 +117,10 @@ export default function Services() {
                   <div class="card-body">
                     <div class="card-title services-card-title">Key Activities</div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">Meetings with Legislators & staff</li>
+                      <li class="list-group-item">Testifying before Legislative committees</li>
+                      <li class="list-group-item">Advocating to the Governor's Office</li>
+                      <li class="list-group-item">Building bipartisan support</li>
                     </ul>
                   </div>
                 </div>
@@ -143,27 +143,26 @@ export default function Services() {
             </div>
             
             <div class="row">
-              <div class="col-lg-4 col-12">
-                <div class="card services-card" >
-                  <div class="card-body">
-                    <div class="card-title services-card-title">Key Activities</div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>    
-              <div class="col-lg-8 col-12 ps-lg-5 mt-lg-0 mt-4">
+              <div class="col-lg-8 col-12 ps-lg-5 order-lg-2">
                 <h5 class="services-description">The relationships Norwood Associates, LLC fosters and grows with each member of the State Legislature and their staff enables the firm to obtain advance notices and insights as legislation moves through the Capitol. With experienced and trusted lobbyists, the firm is able to navigate the activities of other interests in the legislative and regulatory processes. As a full-service firm, Norwood Associates, LLC provides its clients with daily press clips of interest and a weekly newsletter, This Week in Sacramento, which provides a summary of current political and legislative events.
                 <br /><br />
                 See a sample of This Week in Sacramento <a class="example-twis" href={exampleTwis} target="_blank">here</a>
                 
                 </h5>
-                 
-              </div>           
+              </div>
+              <div class="col-lg-4 col-12 mt-lg-0 mt-4 order-lg-1">
+                <div class="card services-card" >
+                  <div class="card-body">
+                    <div class="card-title services-card-title">Key Activities</div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Weekly newsletter</li>
+                      <li class="list-group-item">Daily press clips & media monitoring</li>
+                      <li class="list-group-item">Regular strategy calls & status updates</li>
+                      <li class="list-group-item">Immediate notification of regulatory changes</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -191,10 +190,10 @@ export default function Services() {
                   <div class="card-body">
                     <div class="card-title services-card-title">Key Activities</div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">Organizing "Lobby Days" at the Capitol</li>
+                      <li class="list-group-item">Coordinating in-district meetings</li>
+                      <li class="list-group-item">Managing letter-writing campaigns</li>
+                      <li class="list-group-item">Mobilizing local constituents & leaders</li>
                     </ul>
                   </div>
                 </div>
@@ -218,22 +217,21 @@ export default function Services() {
             </div>
             
             <div class="row">
-              <div class="col-lg-4 col-12">
+              <div class="col-lg-8 col-12 ps-lg-5 order-lg-2">
+                 <h5 class="services-description">The Fair Political Practices Commission (FPPC) was created by the Political Reform Act of 1974 (Act), a ballot initiative passed by California voters in 1974 as Proposition 9. The FPPC regulates campaign financing and spending, financial conflicts of interest, lobbyist registration and reporting, post-governmental employment, mass mailings at public expense, and gifts and honoraria given to public officials and candidates. Norwood Associates, LLC assists its clients in the proper filing of reports and campaign spending.</h5>
+              </div>
+              <div class="col-lg-4 col-12 mt-lg-0 mt-4 order-lg-1">
                 <div class="card services-card" >
                   <div class="card-body">
                     <div class="card-title services-card-title">Key Activities</div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">A first item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
-                      <li class="list-group-item">A fourth item</li>
+                      <li class="list-group-item">Preparing & filing quarterly lobbying reports</li>
+                      <li class="list-group-item">Ensuring compliance with gift limits</li>
+                      <li class="list-group-item">Advising on contribution regulations</li>
                     </ul>
                   </div>
                 </div>
-              </div>   
-              <div class="col-lg-8 col-12 ps-lg-5 mt-lg-0 mt-4">
-                 <h5 class="services-description">The Fair Political Practices Commission (FPPC) was created by the Political Reform Act of 1974 (Act), a ballot initiative passed by California voters in 1974 as Proposition 9. The FPPC regulates campaign financing and spending, financial conflicts of interest, lobbyist registration and reporting, post-governmental employment, mass mailings at public expense, and gifts and honoraria given to public officials and candidates. Norwood Associates, LLC assists its clients in the proper filing of reports and campaign spending.</h5>
-              </div>            
+              </div>
             </div>            
           </div>
         </div>

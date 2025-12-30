@@ -18,7 +18,9 @@ const cardThreeTitle = "KEEN INSIGHT";
 const cardThreeText = "Getting you the latest information on issues affecting your business.";
 const contactPrompt = "Learn more how Norwood Associates can advocate for you in Sacramento.";
 
-export default function Home() {
+export default function Home(props) {
+  const {navigate} = props;
+
   return (
     <main>
       <Title>Norwood Associates</Title>
@@ -43,7 +45,7 @@ export default function Home() {
                 <h5 class="card-title my-4">{cardOneTitle}</h5>
                 <p class="card-text mt-0 mb-2 ">{cardOneText}</p>
               </div>
-              <a class="card-page-link ms-auto" href="/services">Go to Services <i class="bi bi-arrow-up-right"/></a>
+              <a class="card-page-link ms-auto" onClick={() => navigate("/services")}>Go to Services <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
           <div class="col-lg-3 my-4 my-lg-0 d-flex justify-content-center">
@@ -55,7 +57,7 @@ export default function Home() {
                 <h5 class="card-title my-4">{cardTwoTitle}</h5>
                 <p class="card-text mt-0 mb-2">{cardTwoText}</p>
               </div>
-              <a class="card-page-link ms-auto" href="/team">Go to Team <i class="bi bi-arrow-up-right"/></a>
+              <a class="card-page-link ms-auto" onClick={() => navigate("/team")}>Go to Team <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
           <div class="col-lg-3 d-flex justify-content-center">
@@ -67,7 +69,7 @@ export default function Home() {
                 <h5 class="card-title my-4">{cardThreeTitle}</h5>
                 <p class="card-text mt-0 mb-2">{cardThreeText}</p>
               </div>
-              <a class="card-page-link ms-auto" href="/insights">Go to Insights & Reports <i class="bi bi-arrow-up-right"/></a>
+              <a class="card-page-link ms-auto" onClick={() => navigate("/insights")}>Go to Insights & Reports <i class="bi bi-arrow-up-right"/></a>
             </div>
           </div>
           

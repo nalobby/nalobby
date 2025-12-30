@@ -113,6 +113,7 @@ p {
 
 .card-page-link:hover {
   color: #ffd416 !important;
+  cursor: pointer;
 }
 
 .separator-row {
